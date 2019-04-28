@@ -1,0 +1,82 @@
+body{
+	background-image: linear-gradient(to right, #ff5722, #ff9800);
+	margin-top: 150px !important; 
+} 
+
+i{
+	font-size: 70px;
+	animation: mymove 1s infinite alternate;
+}
+
+.register-left
+{
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+
+.register-left p
+{
+	padding: 20px 20px 0;
+}
+
+.register-left .btn-primary{
+	border-radius: 1.5em;
+	border: none;
+	width: 120px;
+	background-color: #f8f8f8;
+	font-weight: 600;
+	color: #555;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.register-left .btn-primary:hover{
+	background: #000;
+}
+
+.register-right{
+	border: none;
+	background: #f8f8f8;
+	padding: 50px;
+	border-top-left-radius: 10% 50%;
+	border-bottom-left-radius: 10% 50%;
+	box-shadow: 0 10px 20px 10px #d35400;
+}	
+
+.register-right h2{
+	color: #555;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.register-form{
+	padding: 30px;
+}
+.register-right .btn-primary{
+	float: right;
+	border-radius: 1.5em;
+	border: none;
+	width: 120px;
+	background-color: #ff9800;
+	font-weight: 600; /*sekilin qalinligini verir.*/
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.register-right .btn-primary:hover{
+	background-color: #ff5722;
+}
+
+@keyframes mymove{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(-20px);}
+}
+
+
+
+
+
+
+
